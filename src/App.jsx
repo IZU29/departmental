@@ -65,7 +65,7 @@ function App() {
         <h3 className="text-white font-semibold bg-[#48BEFF] w-[35%] p-1 rounded-md flex justify-center items-center">Our Vision</h3>
         <p className="text-black text-[0.65rem] my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ratione possimus sapiente a eligendi. Repellat aliquid aliquam voluptatum. Sequi accusamus dolor temporibus ipsum id error!</p>
       </div>
-      <div className="rounded-lg bg-white min-h-[150px] my-2 w-full p-2 border-2 border-[#48BEFF] border-dotted w-[95%] m-auto shadow-xl">
+      <div className="rounded-lg bg-white min-h-[150px] my-2  p-2 border-2 border-[#48BEFF] border-dotted w-[95%] m-auto shadow-xl">
         <h3 className="text-white font-semibold bg-[#48BEFF] w-[35%] p-1 rounded-md flex justify-center items-center">Our Mission</h3>
         <p className="text-[0.65rem] my-2 text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem suscipit, odit eligendi praesentium consequuntur voluptatum fuga hic eum tempore unde repellendus vel, illum nesciunt nostrum laudantium perspiciatis ad dolor repudiandae?</p>
       </div>
