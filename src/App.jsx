@@ -111,7 +111,21 @@ function App() {
         </div>
         </div>
       </section>
+      {/* Introduction video  */}
+      <section className="border bg-[#48BEFF] bg-opacity-50 relative w-full h-[450px]">
+      <img src="vision.jpeg" class="w-full h-full object-cover" alt="Background" />
+      <div class="absolute inset-0 bg-[#48BEFF] bg-opacity-50"></div>
+      <div className="absolute inset-0 flex flex-col w-full border border-green-600 p-2">
+        <video src="1belema.mp4" autoPlay muted loop className="w-[95%] object-cover h-[60%] mx-auto border border-black "></video>
+        <div className="">
+          <h3 className="uppercase underline text-white text-center font-roboto font-bold text-[1.85rem]">WE are Department</h3>
+          <p className="text-white text-[1rem]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, nemo totam natus voluptatibus itaque omnis maiores numquam distinctio in assumenda, excepturi voluptatum.</p>
+        </div>
+      </div>
+    
+      </section>
     </div>
+    
     // 48BEFF
   )
 }
