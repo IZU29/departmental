@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import {FaHistory , FaLightbulb , FaMicrochip , FaTools} from 'react-icons/fa'
+import {FaGraduationCap, FaHistory , FaLightbulb , FaMicrochip , FaSchool, FaSpaceShuttle, FaTools} from 'react-icons/fa'
 import viteLogo from '/vite.svg'
 import './App.css'
 
@@ -123,6 +123,27 @@ function App() {
         </div>
       </div>
     
+      </section>
+      <section className="">
+        <div className=" border-black">
+          <div className="my-4">
+          <div className=" bg-[#48BEFF] bg-opacity-30 text-[3rem] px-2 py-2 rounded-[1000px] text-white m-auto flex justify-center items-center w-[100px] h-[100px]"><FaSchool /></div>
+          <h3 className="text-[#48BEFF] text-[2.5rem] font-bold m-auto flex justify-center my-2">1000+</h3>
+          <p className="text-[#48BEFF] text-[1.5rem] font-bold m-auto flex justify-center font-roboto my-2">Enrolled Students</p>
+          </div>
+          <div className="my-4">
+          <div className="bg-[#48BEFF] bg-opacity-30 text-[3rem] px-2 py-2 rounded-[1000px] text-white m-auto flex justify-center items-center w-[100px] h-[100px]"><FaSpaceShuttle/></div>
+          <h3 className="text-[#48BEFF] text-[2.5rem] font-bold m-auto flex justify-center my-2">200+</h3>
+          <p className="text-[#48BEFF] text-[1.5rem] font-bold m-auto flex justify-center font-roboto my-2">Innovative Alumni</p>
+          </div>
+          <div className="my-4">
+          <div className="bg-[#48BEFF] bg-opacity-30 text-[3rem] px-2 py-2 rounded-[1000px] text-white m-auto flex justify-center items-center w-[100px] h-[100px]">
+          <FaGraduationCap />
+          </div>
+          <h3 className="text-[#48BEFF] text-[2.5rem] font-bold  m-auto flex justify-center my-2">100+</h3>
+          <p className="text-[#48BEFF] text-[1.5rem] font-bold m-auto flex justify-center font-roboto my-2">First-Class Graduates</p>
+          </div>
+        </div>
       </section>
     </div>
     
