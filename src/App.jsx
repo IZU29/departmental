@@ -153,7 +153,7 @@ function App() {
         <h4 className="text-[2.5rem] text-white font-bold font-roboto my-2">Subscribe to our Newsletter for weekly updates on the Department</h4>
         <div className="border p-2 m-2 bg-white rounded-xl shadow-xl flex justify-between">
           <input type="text" className="w-[68%] p-2 outline-none " placeholder='Enter Your Email'/>
-          <button className=" bg-[#48BEFF] w-[30%] items-center justify-between p-2 flex rounded-lg text-white font-semibold font-roboto ">Subscribe <FaPaperPlane /></button>
+          <button className=" bg-[#48BEFF] w-[30%] items-center  p-2 flex rounded-lg text-[0.75rem] text-white font-semibold font-roboto ">Subscribe <FaPaperPlane className='mx-1 text-[0.8rem]' /></button>
         </div>
       </div>
       </section>
