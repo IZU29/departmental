@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import {FaGraduationCap, FaHistory , FaLightbulb , FaMicrochip , FaSchool, FaSpaceShuttle, FaTools} from 'react-icons/fa'
+import {FaGraduationCap, FaHistory , FaLightbulb , FaMicrochip , FaPaperPlane, FaPlane, FaSchool, FaSpaceShuttle, FaTelegram, FaTools} from 'react-icons/fa'
 import viteLogo from '/vite.svg'
 import './App.css'
 
@@ -144,6 +144,18 @@ function App() {
           <p className="text-[#48BEFF] text-[1.5rem] font-bold m-auto flex justify-center font-roboto my-2">First-Class Graduates</p>
           </div>
         </div>
+      </section>
+      {/* Newsletter Subscription */}
+      <section className="border bg-[#48BEFF] bg-opacity-50 relative w-full h-[400px] min-h-[300px]">
+      <img src="vision.jpeg" class="w-full h-full object-cover" alt="Background" />
+      <div class="absolute inset-0 bg-[#48BEFF] bg-opacity-50"></div>
+      <div className="absolute inset-0 p-2">
+        <h4 className="text-[2.5rem] text-white font-bold font-roboto my-2">Subscribe to our Newsletter for weekly updates on the Department</h4>
+        <div className="border p-2 m-2 bg-white rounded-xl shadow-xl flex justify-between">
+          <input type="text" className="w-[68%] p-2 outline-none " placeholder='Enter Your Email'/>
+          <button className=" bg-[#48BEFF] w-[30%] items-center justify-between p-2 flex rounded-lg text-white font-semibold font-roboto ">Subscribe <FaPaperPlane /></button>
+        </div>
+      </div>
       </section>
     </div>
     
