@@ -1,15 +1,30 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import {FaGraduationCap, FaHistory , FaLightbulb , FaMicrochip , FaPaperPlane, FaPlane, FaSchool, FaSpaceShuttle, FaTelegram, FaTools} from 'react-icons/fa'
+import {FaBars, FaGraduationCap, FaHistory , FaLightbulb , FaMicrochip , FaPaperPlane, FaPlane, FaSchool, FaSearch, FaSpaceShuttle, FaTelegram, FaTools} from 'react-icons/fa'
 import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
   
-
+  const [isOpen , setIsOpen] = useState(false)
   return (
     <div className="">
-      <section className="bg-[#48BEFF] min-h-[50px] flex flex-col justify-center font-roboto">
+      <section className="bg-[#48BEFF] flex  justify-between font-roboto p-2 items-center">
+      <h1 className="text-4xl text-white font-bold font-cedar">Department</h1>
+        <div className="flex md:hidden  border-red-500 ">
+        <div className="relative group inline-block " onMouseEnter={() => setIsOpen(true)} onMouseLeave={() => setIsOpen(false)} >
+        <FaBars className='text-2xl mx-2 text-white' />
+        {isOpen && (<div className="absolute text-right right-0 bg-black text-white p-2 rounded-md ">
+          <ul className="">
+            <li className="">Home</li>
+            <li className="">Recents</li>
+            <li className="">Memeberships</li>
+            {/* <li className=""></li> */}
+          </ul>
+        </div>)}
+        
+        </div>
+        </div>
         <nav className=" border-black hidden md:flex">
           <ul className="uppercase  flex w-[85%] m-auto justify-between font-bold text-white">
           <li className="">Home</li>
@@ -156,6 +171,17 @@ function App() {
           <button className=" bg-[#48BEFF] w-[30%] items-center  p-2 flex rounded-lg text-[0.75rem] text-white font-semibold font-roboto ">Subscribe <FaPaperPlane className='mx-1 text-[0.8rem]' /></button>
         </div>
       </div>
+      </section>
+      {/* Alumni Section */}
+      <section className="text-[#48BEFF]">
+        <h2 className=" text-center text-[1.85rem] font-bold p-4">Words From Notable Alum</h2>
+        <div className="">
+          <div className=" border-black m-auto">
+            <img src="shika.jpg" alt="" className="m-auto w-[100px] h-[100px] object-cover border rounded-[100%] shadow-lg" />
+          </div>
+          <h3 className="text-center text-[1.45rem] font-semibold">Nara-Shikamaru</h3>
+          <p className="text-center text-[1.10rem]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim maiores id quidem quos explicabo culpa.</p>
+        </div>
       </section>
     </div>
     
